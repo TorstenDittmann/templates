@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require '/usr/local/server/src/function/vendor/autoload.php';
 
 use Appwrite\Client;
 use Appwrite\Exception;
