@@ -19,7 +19,7 @@ export default async ({ req, res, log, error }) => {
     <script src="https://unpkg.com/htmx.org@1.9.3"></script>
   </head>
   <body>
-    <button hx-swap="beforeend" hx-target="#list" hx-get="/title">
+    <button hx-swap="beforestart" hx-target="#list" hx-get="/title">
       Click Me
     </button>
     <div id="list">
