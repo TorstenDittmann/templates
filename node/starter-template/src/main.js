@@ -19,9 +19,12 @@ export default async ({ req, res, log, error }) => {
     <script src="https://unpkg.com/htmx.org@1.9.3"></script>
   </head>
   <body>
-    <button hx-post="http://64bbba3ea0c5e12284e8.functions.localhost/title" hx-swap="outerHTML">
+    <button hx-swap="beforeend" hx-target="#list" hx-get="/title">
       Click Me
     </button>
+    <div id="list">
+
+    </div>
   </body>
   </html>`;
 
