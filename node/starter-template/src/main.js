@@ -3,9 +3,9 @@ import { Client } from 'node-appwrite';
 // This is your Appwrite function
 // It's executed each time we get a request
 export default async ({ req, res, log, error }) => {
-  log(req.url);
+  log(req.path);
 
-  if(req.url === '/title') {
+  if(req.path === '/title') {
   const date = new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' });
   return res.send(`<p>Now is <b>${date}</b>. <p>`);
 }
