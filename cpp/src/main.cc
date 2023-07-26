@@ -27,7 +27,7 @@ namespace runtime {
         response["motto"] = "Build Fast. Scale Big. All in One Place.";
         response["learn"] = "https://appwrite.io/docs";
         response["connect"] = "https://appwrite.io/discord";
-        response["getInspired] = "https://builtwith.appwrite.io";
+        response["getInspired"] = "https://builtwith.appwrite.io";
         return context.res.json(response);
       }
   };
