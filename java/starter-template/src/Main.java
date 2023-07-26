@@ -1,4 +1,4 @@
-package io.openruntimes.java;
+package io.openruntimes.java.src;
 
 import java.util.HashMap;
 import java.util.Map;
