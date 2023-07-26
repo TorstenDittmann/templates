@@ -24,7 +24,7 @@ public class Handler {
         Context.Error("Hello, Errors! ⛔");
 
         // The `Context.Req` object contains the request data
-        if (Context.Req.Method === "GET") {
+        if (Context.Req.Method == "GET") {
             // Send a response with the res object helpers
             // `Context.Res.Send()` dispatches a string back to the client
             return Context.Req.Send("Hello, World! 🌎");
