@@ -1,3 +1,5 @@
+package io.openruntimes.java;
+
 import java.util.HashMap;
 import io.appwrite.Client;
 
