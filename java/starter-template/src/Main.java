@@ -1,6 +1,7 @@
 package io.openruntimes.java;
 
 import java.util.HashMap;
+import java.util.Map;
 import io.appwrite.Client;
 
 public class Main {
