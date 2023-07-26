@@ -29,14 +29,13 @@ public class Main {
             return context.getRes().send("Hello, World! 🌎");
         }
 
+        Map<String, Object> json = new HashMap<>();
+        json.put("motto", "Build Fast. Scale Big. All in One Place.");
+        json.put("learn", "https://appwrite.io/docs");
+        json.put("connect", "https://appwrite.io/discord");
+        json.put("getInspired", "https://builtwith.appwrite.io");
+        
         // `context.getRes().json()` is a handy helper for sending JSON
-        return context.getRes().json(new Map<String, Object>() {
-            {
-                put("motto", "Build Fast. Scale Big. All in One Place.");
-                put("learn", "https://appwrite.io/docs");
-                put("connect", "https://appwrite.io/discord");
-                put("getInspired", "https://builtwith.appwrite.io");
-            }
-        });
+        return context.getRes().json(json);
     }
 }
