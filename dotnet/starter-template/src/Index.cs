@@ -27,7 +27,7 @@ public class Handler {
         if (Context.Req.Method == "GET") {
             // Send a response with the res object helpers
             // `Context.Res.Send()` dispatches a string back to the client
-            return Context.Req.Send("Hello, World! 🌎");
+            return Context.Res.Send("Hello, World! 🌎");
         }
         
         // `Context.Res.Json()` is a handy helper for sending JSON
