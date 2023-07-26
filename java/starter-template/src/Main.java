@@ -1,6 +1,5 @@
-package io.openruntimes.java.src;
+package io.openruntimes.java;
 
-import io.openruntimes.java;
 import java.util.HashMap;
 import java.util.Map;
 import io.appwrite.Client;
